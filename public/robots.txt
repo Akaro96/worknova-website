@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# GEO / AI Agents
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://www.worknova.de/sitemap.xml

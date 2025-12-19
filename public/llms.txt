@@ -1,0 +1,20 @@
+# Worknova - Internationale Fachkräfte & Smart Recruiting
+
+## About
+Worknova verbindet digitale Intelligenz mit persönlicher Begleitung für internationales Recruiting. Finden Sie qualifizierte Fachkräfte aus aller Welt.
+Wir bieten KI-basiertes Matching, Visum-Service und Integrationsbegleitung.
+
+## Key Routes
+The following routes are accessible via the application:
+
+- https://www.worknova.de/#/ : Startseite
+- https://www.worknova.de/#/unternehmen : Für Unternehmen (KI Matching, Prozess-Dashboard)
+- https://www.worknova.de/#/talent : Für Fachkräfte (Jobs in Deutschland)
+- https://www.worknova.de/#/services : Leistungen & Preise
+- https://www.worknova.de/#/faq : Häufig gestellte Fragen
+- https://www.worknova.de/#/contact : Kontakt
+
+## Content Summary
+- **Unternehmen**: Automatisierte Kandidatensuche, Deep Learning Matching, 98% Match-Rate.
+- **Talente**: Unterstützung bei Visum, Anerkennung und Wohnungssuche.
+- **Service**: Modulares Leistungssystem von der Vermittlung bis zum Full-Service Onboarding.

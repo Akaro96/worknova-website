@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Worknova - Internationale Fachkräfte & Smart Recruiting</title>
+    <meta name="description" content="Worknova verbindet digitale Intelligenz mit persönlicher Begleitung für internationales Recruiting. Finden Sie qualifizierte Fachkräfte aus aller Welt.">
+    <meta name="keywords" content="Fachkräfte, Recruiting, International, Deutschland, Visum, Anerkennung, Worknova, Personalvermittlung">
+    <meta name="author" content="Morsnova GmbH">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.worknova.de/">
+    <meta property="og:title" content="Worknova - Internationale Fachkräfte & Smart Recruiting">
+    <meta property="og:description" content="Worknova verbindet digitale Intelligenz mit persönlicher Begleitung für internationales Recruiting.">
+    <meta property="og:image" content="/Worknova_Logo.webp">
+    <meta property="og:locale" content="de_DE">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Worknova - Internationale Fachkräfte & Smart Recruiting">
+    <meta name="twitter:description" content="Worknova verbindet digitale Intelligenz mit persönlicher Begleitung für internationales Recruiting.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/webp" href="/Worknova_Logo.webp">
+    <link rel="apple-touch-icon" href="/Worknova_Logo.webp">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0f172a">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                orange: '#ef9d56',
+                orangeLight: '#fbe9d8',
+                teal: '#74a6af',
+                tealLight: '#e4f0f2',
+                dark: '#0f172a',
+                slate: '#64748b',
+                cream: '#fffbf7'
+              }
+            },
+            backgroundImage: {
+              'noise': "url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22 opacity=%220.05%22/%3E%3C/svg%3E')",
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Performance optimizations */
+      html {
+        scroll-behavior: auto; /* Disable smooth scroll for better perf */
+      }
+      
+      body {
+        background-color: #fffbf7;
+        color: #0f172a;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+      
+      /* GPU acceleration for transforms */
+      .transform-gpu {
+        transform: translateZ(0);
+        backface-visibility: hidden;
+      }
+      
+      /* Optimize will-change for critical elements */
+      .will-change-transform {
+        will-change: transform;
+      }
+      
+      .perspective-2500 { perspective: 2500px; }
+      .hide-scrollbar::-webkit-scrollbar { display: none; }
+      .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+      
+      ::selection { background: #ef9d56; color: white; }
+      
+      /* Reduced motion support */
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      
+      @keyframes shimmer {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(100%); }
+      }
+      .animate-shimmer {
+        animation: shimmer 3s infinite;
+      }
+      
+      /* Optimized animations - slower = smoother */
+      @keyframes float-slow {
+        0%, 100% { transform: translateY(0) translateZ(0); }
+        50% { transform: translateY(-8px) translateZ(0); }
+      }
+      .animate-float-slow {
+        animation: float-slow 6s ease-in-out infinite;
+      }
+      
+      @keyframes float-medium {
+        0%, 100% { transform: translateY(0) translateZ(0); }
+        50% { transform: translateY(-6px) translateZ(0); }
+      }
+      .animate-float-medium {
+        animation: float-medium 5s ease-in-out infinite;
+      }
+      
+      /* Contain paint to isolate repaints */
+      section {
+        contain: layout style;
+      }
+    </style>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+    "lucide-react": "https://esm.sh/lucide-react@0.344.0?external=react",
+    "framer-motion": "https://esm.sh/framer-motion@11.0.8?external=react,react-dom"
+  }
+}
+</script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
